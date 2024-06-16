@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход не может быть выполнен</title>
+    <!-- Стили -->
+    <style>
+        h1 {
+            margin: auto;
+            padding: auto;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+        }
+        button {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Контейнер с уведомлением -->
+    <div class="container">
+        <h1>Ошибка входа</h1>
+        <p>Не удалось выполнить вход. Пожалуйста, проверьте правильность ввода имени пользователя и пароля.</p>
+        <!-- Кнопка возврата на стартовую страницу -->
+        <button class="btn btn-outline-primary" onclick="window.location.href = 'index.php';">Повторный вход</button>
+    </div>
+</body>
+</html>
